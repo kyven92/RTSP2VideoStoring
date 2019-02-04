@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/venky/Desktop/Development/learning/RTSPStoring/include/IPCameraWriter.h
+iostream
+-
+pthread.h
+-
+libavcodec/avcodec.h
+-
+libavformat/avformat.h
+-
+libavformat/avio.h
+-
+libavdevice/avdevice.h
+-
+libavutil/timestamp.h
+-
+
+/home/venky/Desktop/Development/learning/RTSPStoring/spike/test.cpp
+iostream
+-
+unistd.h
+-
+signal.h
+-
+../include/IPCameraWriter.h
+/home/venky/Desktop/Development/learning/RTSPStoring/include/IPCameraWriter.h
+
+/home/venky/Desktop/Development/learning/RTSPStoring/src/IPCameraWriter.cpp
+../include/IPCameraWriter.h
+/home/venky/Desktop/Development/learning/RTSPStoring/include/IPCameraWriter.h
+
